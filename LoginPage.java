@@ -57,7 +57,7 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vector-calligraphic-istanbul-word-260nw-1370158037.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/istanbul_Tourism-logo-FCFBC6B60D-seeklogo.com.png"))); // NOI18N
 
         jLabel3.setForeground(new java.awt.Color(0, 51, 255));
         jLabel3.setText("PASSWORD");
