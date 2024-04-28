@@ -67,6 +67,11 @@ public class findRoute extends javax.swing.JFrame {
         });
 
         jToggleButton1.setText("Back");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -146,6 +151,17 @@ public class findRoute extends javax.swing.JFrame {
         mapFrame.setLocationRelativeTo(null); // Center the frame on the screen
         mapFrame.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    
+    // Create an instance of the main menu frame (Menu)
+    Menu menuFrame = new Menu();
+    
+    // Show the main menu frame
+    menuFrame.setVisible(true);
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     /**
      * @param args the command line arguments

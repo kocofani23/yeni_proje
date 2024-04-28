@@ -64,6 +64,11 @@ public class AddCard extends javax.swing.JFrame {
         });
 
         jButton2.setText("Back");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Desktop\\Programming\\netBeans\\istanbul card\\src\\anonim-kart-önyüz.png")); // NOI18N
 
@@ -134,6 +139,17 @@ public class AddCard extends javax.swing.JFrame {
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    
+    // Create an instance of the main menu frame (Menu)
+    Menu menuFrame = new Menu();
+    
+    // Show the main menu frame
+    menuFrame.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
